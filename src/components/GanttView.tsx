@@ -17,7 +17,6 @@ const GanttView = ({
   const [headerTooltip, setHeaderTooltip] = useState<HeaderTooltip | null>(
     null
   );
-  console.log("data : ", data);
 
   const handleHeaderMouseEnter = useCallback(
     (event: MouseEvent, tooltipText: string) => {
